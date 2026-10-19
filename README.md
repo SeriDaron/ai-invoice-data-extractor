@@ -4,7 +4,7 @@ Upload invoices (PDF or TXT), extract the key fields automatically, check the ma
 
 **Live demo:** [ai-invoice-data-extractor.vercel.app](https://ai-invoice-data-extractor.vercel.app)
 
-![DocExtract showing three extracted invoices, one flagged for review](docs/screenshot.png)
+![DocExtract in Claude mode: three extracted invoices, one flagged for review](docs/screenshot.png)
 
 > **Demo note:** the app runs without any API key in **demo mode**, using rule-based extraction (pattern matching, no AI) that handles common invoice layouts. Add an `ANTHROPIC_API_KEY` and extraction is done by Claude with schema-enforced JSON output, which also handles unusual layouts and languages.
 
